@@ -1,13 +1,13 @@
 .carousel-caption {
     left: 46%;
     top: 25%;
-    width: 648px;
+    width: 30%;
     text-align: left;
     color: black;
 }
 
 .carousel-caption h2 {
-    font-size: 42px;
+    font-size: 2vw;
     font-family: 'OpenSans';
     color: black;
 }
@@ -15,18 +15,8 @@
 .carousel-caption p {
     color: black;
     font-family: 'OpenSans';
-    font-size: 26px;
+    font-size: 1.8vw;
     line-height: 50px;
-}
-
-.slider {
-    padding: 0;
-}
-
-.pic {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 .button-more {
@@ -38,6 +28,16 @@
     font-size: 16px;
     font-family: 'OpenSans';
     color: white;
+}
+
+.slider {
+    padding: 0;
+}
+
+.pic {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .button-promo {
