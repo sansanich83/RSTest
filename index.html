@@ -5,25 +5,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
   <script>
-    // Picture element HTML5 shiv
     document.createElement("picture");
   </script>
   <script src="./assets/js/picturefill.js" async=""></script>
+
   <title>slider bootstrap</title>
 
-  <!-- Bootstrap -->
   <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="./assets/css/style.css" rel="stylesheet">
   <link href="./assets/css/carousel-indicator.css" rel="stylesheet">
+  <link href="./assets/css/carousel-caption.css" rel="stylesheet">
+  <link href="./assets/css/carousel-control.css" rel="stylesheet">
+  <link href="./assets/css/demo-modal.css" rel="stylesheet">
 
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
@@ -32,19 +28,50 @@
       <div class="row">
         <div class="slider col-lg-12">
 
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel1">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+                <div class="container-fluid">
+                  <div class="row">
+                    <img class="col-sm-3 hidden-xs preview-img" src="./assets/img/preview/slider_1pre.jpg" alt="">
+                    <h3 class="col-sm-9 hidden-xs  preview-title">Акция действует с 01.07.18</h3>
+                    <p class="col-sm-9 hidden-xs preview-text">Этот текст добавлен для демонстрации на странице</p>
+                  </div>
+                </div>
+              </li>
+              <li data-target="#carousel-example-generic" data-slide-to="1">
+                <div class="container-fluid">
+                  <div class="row">
+                    <img class="col-sm-3 hidden-xs preview-img" src="./assets/img/preview/slider_2pre.jpg" alt="">
+                    <h3 class="col-sm-9 hidden-xs preview-title">Акция действует с 01.07.18</h3>
+                    <p class="col-sm-9 hidden-xs preview-text">Этот текст добавлен для демонстрации на странице</p>
+                  </div>
+                </div>
+              </li>
+              <li data-target="#carousel-example-generic" data-slide-to="2">
+                <div class="container-fluid">
+                  <div class="row">
+                    <img class="col-sm-3 hidden-xs preview-img" src="./assets/img/preview/slider_3pre.jpg" alt="">
+                    <h3 class="col-sm-9 hidden-xs preview-title">Акция действует с 01.07.18</h3>
+                    <p class="col-sm-9 hidden-xs preview-text">Этот текст добавлен для демонстрации на странице</p>
+                  </div>
+                </div>
+              </li>
+              <li data-target="#carousel-example-generic" data-slide-to="3">
+                <div class="container-fluid">
+                  <div class="row">
+                    <img class="col-sm-3 hidden-xs preview-img" src="./assets/img/preview/slider_4pre.jpg" alt="">
+                    <h3 class="col-sm-9 hidden-xs preview-title">Акция действует с 01.07.18</h3>
+                    <p class="col-sm-9 hidden-xs preview-text">Этот текст добавлен для демонстрации на странице</p>
+                  </div>
+                </div>
+              </li>
             </ol>
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                <!-- <img src="./assets/img/slides/slider_1.jpg" alt="111"> -->
                 <picture>
                   <source media="(min-width: 1170px)" srcset="./assets/img/slides/slider_1.jpg">
                   <source media="(min-width: 768px)" srcset="./assets/img/slides/slider_1_MD.jpg">
@@ -52,36 +79,52 @@
                 </picture>
                 <div class="carousel-caption">
                   <h2>Этот текст добавлен для демонстрации на странице</h2>
-                  <p>Акция действует с 01.07.18 по 31.07.18</p>
+                  <p class="hidden-xs">Акция действует с 01.07.18 по 31.07.18</p>
+                  <p class="hidden visible-xs">Тест на внимательность</p>
                   <button class="button-more">Подробнее</button>
-                  <button class="button-promo">Все Акции</button>
+                  <button class="button-promo hidden-xs">Все Акции</button>
                 </div>
               </div>
               <div class="item">
                 <picture>
                   <source media="(min-width: 1170px)" srcset="./assets/img/slides/slider_2.jpg">
                   <source media="(min-width: 768px)" srcset="./assets/img/slides/slider_2_MD.jpg">
-                  <img class="pic" src="./assets/img/slides/slider_2min.jpg" alt="слайд1">
+                  <img class="pic" src="./assets/img/slides/slider_2min.jpg" alt="слайд2">
                 </picture>
                 <div class="carousel-caption">
+                  <h2>Этот текст добавлен для демонстрации на странице</h2>
+                  <p class="hidden-xs">Акция действует с 01.07.18 по 31.07.18</p>
+                  <p class="hidden visible-xs">Тест на внимательность</p>
+                  <button class="button-more">Подробнее</button>
+                  <button class="button-promo hidden-xs">Все Акции</button>
                 </div>
               </div>
               <div class="item">
                 <picture>
                   <source media="(min-width: 1170px)" srcset="./assets/img/slides/slider_3.jpg">
                   <source media="(min-width: 768px)" srcset="./assets/img/slides/slider_3_MD.jpg">
-                  <img class="pic" src="./assets/img/slides/slider_3min.jpg" alt="слайд1">
+                  <img class="pic" src="./assets/img/slides/slider_3min.jpg" alt="слайд3">
                 </picture>
                 <div class="carousel-caption">
+                  <h2>Этот текст добавлен для демонстрации на странице</h2>
+                  <p class="hidden-xs">Акция действует с 01.07.18 по 31.07.18</p>
+                  <p class="hidden visible-xs">Тест на внимательность</p>
+                  <button class="button-more">Подробнее</button>
+                  <button class="button-promo hidden-xs">Все Акции</button>
                 </div>
               </div>
               <div class="item">
                 <picture>
                   <source media="(min-width: 1170px)" srcset="./assets/img/slides/slider_4.jpg">
                   <source media="(min-width: 768px)" srcset="./assets/img/slides/slider_4_MD.jpg">
-                  <img class="pic" src="./assets/img/slides/slider_4min.jpg" alt="слайд1">
+                  <img class="pic" src="./assets/img/slides/slider_4min.jpg" alt="слайд4">
                 </picture>
                 <div class="carousel-caption">
+                  <h2>Этот текст добавлен для демонстрации на странице</h2>
+                  <p class="hidden-xs">Акция действует с 01.07.18 по 31.07.18</p>
+                  <p class="hidden visible-xs">Тест на внимательность</p>
+                  <button class="button-more">Подробнее</button>
+                  <button class="button-promo hidden-xs">Все Акции</button>
                 </div>
               </div>
             </div>
@@ -102,9 +145,11 @@
     </div>
   </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <div class="demo-modal">
+    <button class="begin-demo">Начать демонстрацию</button>
+  </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="./assets/js/bootstrap.min.js"></script>
   <script src="./assets/js/script.js"></script>
 </body>

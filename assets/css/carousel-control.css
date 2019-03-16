@@ -1,0 +1,49 @@
+.carousel-control.left {
+    display: none;
+}
+
+.carousel-control.right {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .glyphicon-chevron-left::before {
+        content: "\e257";
+        font-size: 29px;
+        position: absolute;
+        top: 50%;
+        margin-top: -20px;
+        left: -10px;
+    }
+
+    .glyphicon-chevron-right::before {
+        content: "\e258";
+        font-size: 29px;
+        position: absolute;
+        top: 50%;
+        margin-top: -20px;
+    }
+
+    .carousel-control.left {
+        display: block;
+        background-color: #b5bbc4;
+        background-image: none;
+        width: 77px;
+        height: 85px;
+        top: 50%;
+        margin-top: -42px;
+        border-radius: 5px;
+    }
+    
+    .carousel-control.right {
+        display: block;
+        background-color: #b5bbc4;
+        background-image: none;
+        width: 77px;
+        height: 85px;
+        top: 50%;
+        margin-top: -42px;
+        border-radius: 5px;
+    }
+}

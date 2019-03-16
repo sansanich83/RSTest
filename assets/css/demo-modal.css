@@ -1,0 +1,22 @@
+.demo-modal {
+    width: 100%;
+    min-height: 675px;
+    background-color: #c4cdd6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.begin-demo {
+    background-color: #ff891e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    min-height: 35px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 335px;
+    text-transform: uppercase;
+}

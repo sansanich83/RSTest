@@ -1,0 +1,129 @@
+.carousel-caption {
+    left: 50%;
+    margin-left: -20%;
+    top: 22%;
+    width: 40%;
+    color: black;
+    text-shadow: none;
+}
+
+.carousel-caption h2 {
+    font-size: 2.9vw;
+    font-family: 'OpenSans';
+    color: black;
+}
+
+.carousel-caption p {
+    color: black;
+    font-family: 'OpenSans';
+    font-size: 2vw;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+.button-more {
+    width: 27%;
+    height: 10%;
+    background-color: #ff891e;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.9vw;
+    font-family: 'OpenSans';
+    color: white;
+    text-transform: uppercase;
+}
+
+
+@media (min-width: 768px) {
+    .carousel-caption {
+        left: 69%;
+        top: 22%;
+        width: 35%;
+        text-align: left;
+        color: black;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2.5vw;
+        font-family: 'OpenSans';
+        color: black;
+    }
+
+    .carousel-caption p {
+        color: black;
+        font-family: 'OpenSans';
+        font-size: 1.8vw;
+        line-height: 50px;
+    }
+
+    .button-more {
+        width: 27%;
+        height: 7%;
+        background-color: #ff891e;
+        border: none;
+        border-radius: 2px;
+        font-size: 0.9vw;
+        font-family: 'OpenSans';
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .button-promo {
+        width: 27%;
+        height: 7%;
+        border: 1px solid black;
+        border-radius: 2px;
+        background-color: #c9d0da;
+        font-size: 0.9vw;
+        font-family: 'OpenSans';
+        margin-left: 20px;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1170px) {
+    .carousel-caption {
+        left: 66%;
+        top: 25%;
+        width: 30%;
+        text-align: left;
+        color: black;
+    }
+
+    .carousel-caption h2 {
+        font-size: 2vw; 
+        font-family: 'OpenSans';
+        color: black;
+    }
+
+    .carousel-caption p {
+        color: black;
+        font-family: 'OpenSans';
+        font-size: 1.5vw;
+        line-height: 50px;
+    }
+
+    .button-more {
+        width: 27%;
+        height: 10%;
+        background-color: #ff891e;
+        border: none;
+        border-radius: 2px;
+        font-size: 0.9vw;
+        font-family: 'OpenSans';
+        color: white;
+        text-transform: uppercase;
+    }
+
+    .button-promo {
+        width: 27%;
+        height: 10%;
+        border: 1px solid black;
+        border-radius: 2px;
+        background-color: #c9d0da;
+        font-size: 0.9vw;
+        font-family: 'OpenSans';
+        margin-left: 20px;
+        text-transform: uppercase;
+    }
+}

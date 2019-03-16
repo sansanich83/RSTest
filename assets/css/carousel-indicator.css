@@ -1,17 +1,20 @@
 .carousel-indicators li {
-    border: 1px solid black;
+    border: 1px solid #282828;
+    width: 12px;
+    height: 12px;
 }
 
 .carousel-indicators li.active {
-    border: 1px solid black;
+    border: 1px solid #282828;
     background-color: #282828;
+    width: 12px;
+    height: 12px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .carousel-indicators {
         width: 80%;
         margin-left: -40%;
-        height: 11%;
     }
     .carousel-indicators li {
         border-style: solid;
@@ -20,8 +23,12 @@
         border-radius: 3px;
         background-color: black;
         opacity: 0.15;
-        width: 24%;
+        width: 20%;
         height: 100%;
+        text-indent: 0;
+        padding: 5px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     .carousel-indicators li.active {
@@ -31,12 +38,46 @@
         border-width: 1px;
         border-color: rgb(0, 0, 0);
         border-radius: 3px;
-        width: 24%;
+        width: 20%;
         height: 100%;
+        text-indent: 0;
+        padding: 5px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    
+    .preview-title {
+        font-size: 0.6vw;
+        text-align: left;
+        line-height: 130%;
+        color: white;
+        padding-top: 5px;
+        padding-left: 8px;
+        padding-right: 0px;
+        margin: 0;
+    }
+
+    .preview-text {
+        font-size: 0.65vw;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        text-align: left;
+        color: white;
+        padding-left: 8px;
+        padding-right: 0px;
+        margin: 0;
+    }
+
+    
+    .preview-img {
+        padding: 0;
+        border-radius: 4px;
+        width: 18%;
     }
 
 }
-
+/* 
 @media (min-width: 1170px) {
     .carousel-indicators {
         width: 80%;
@@ -45,24 +86,42 @@
 
 
     .carousel-indicators li {
-        border-style: solid;
-        border-width: 1px;
-        border-color: rgb(0, 0, 0);
         border-radius: 3px;
         background-color: black;
         opacity: 0.15;
-        width: 24%;
+        width: 20%;
         height: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-indent: 0;
+        padding: 5px;
     }
 
     .carousel-indicators li.active {
         background-color: black;
         opacity: 0.5;
-        border-style: solid;
-        border-width: 1px;
-        border-color: rgb(0, 0, 0);
         border-radius: 3px;
-        width: 24%;
+        width: 20%;
         height: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-indent: 0;
+        padding: 5px;
     }
-}
+
+    .preview-title {
+        font-size: 0.5vw;
+        text-align: left;
+        margin: 0;
+        color: white;
+    }
+
+    .preview-text {
+        font-size: 0.6vw;
+        text-align: left;
+        color: white;
+    }
+
+    .preview-img {
+    }
+} */
