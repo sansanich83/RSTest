@@ -1,6 +1,6 @@
 .demo-modal {
     width: 100%;
-    min-height: 675px;
+    height: 100%;
     background-color: #c4cdd6;
     position: absolute;
     top: 0;
@@ -17,6 +17,6 @@
     min-height: 35px;
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top: 335px;
+    margin-top: 20%;
     text-transform: uppercase;
 }

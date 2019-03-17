@@ -1,65 +1,96 @@
+.carousel-indicators {
+    bottom: 0;
+    width: 80%;
+    margin-left: -40%;
+}
+
 .carousel-indicators li {
     border: 1px solid #282828;
-    width: 12px;
-    height: 12px;
+    width: 8px;
+    height: 8px;
 }
 
 .carousel-indicators li.active {
     border: 1px solid #282828;
     background-color: #282828;
-    width: 12px;
-    height: 12px;
+    width: 8px;
+    height: 8px;
+}
+
+
+@media (min-width: 460px) {
+    .carousel-indicators {
+        bottom: 10px;
+        width: 80%;
+        margin-left: -40%;
+    }
+
+    .carousel-indicators li {
+        width: 14px;
+        height: 14px;
+    }
+
+    .carousel-indicators li.active {
+        width: 14px;
+        height: 14px;
+    }
 }
 
 @media (min-width: 768px) {
     .carousel-indicators {
-        width: 80%;
-        margin-left: -40%;
+        width: 96%;
+        margin-left: -48%;
     }
+
     .carousel-indicators li {
-        border-style: solid;
-        border-width: 1px;
-        border-color: rgb(0, 0, 0);
+        border: none;
         border-radius: 3px;
-        background-color: black;
-        opacity: 0.15;
+        background-color: rgba(0, 0, 0, 0.15);
         width: 20%;
         height: 100%;
         text-indent: 0;
         padding: 5px;
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
     }
 
     .carousel-indicators li.active {
-        background-color: black;
-        opacity: 0.5;
-        border-style: solid;
-        border-width: 1px;
-        border-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
         border-radius: 3px;
         width: 20%;
         height: 100%;
         text-indent: 0;
         padding: 5px;
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
     }
 
-    
+    .carousel-indicators li:hover,
+    .carousel-indicators li:focus {        
+        background-color: rgba(0, 0, 0, 0.25);
+        transition: 0.3s;
+    }
+
+    .carousel-indicators li.active:hover,
+    .carousel-indicators li.active:focus {
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: 0.3s;
+    }
+
     .preview-title {
-        font-size: 0.6vw;
+        font-size: 0.8vw;
         text-align: left;
         line-height: 130%;
         color: white;
-        padding-top: 5px;
+        padding-top: 4px;
         padding-left: 8px;
         padding-right: 0px;
         margin: 0;
     }
 
     .preview-text {
-        font-size: 0.65vw;
+        font-size: 0.87vw;
         font-weight: bold;
         letter-spacing: 0.5px;
         text-align: left;
@@ -69,7 +100,7 @@
         margin: 0;
     }
 
-    
+
     .preview-img {
         padding: 0;
         border-radius: 4px;
@@ -77,51 +108,38 @@
     }
 
 }
-/* 
-@media (min-width: 1170px) {
-    .carousel-indicators {
-        width: 80%;
-        margin-left: -40%;
-    }
 
+@media (min-width: 1171px) {
+    .carousel-indicators {
+        width: 70%;
+        margin-left: -35%;
+    }
 
     .carousel-indicators li {
         border-radius: 3px;
-        background-color: black;
-        opacity: 0.15;
+        background-color: rgba(0, 0, 0, 0.15);
         width: 20%;
-        height: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
-        text-indent: 0;
-        padding: 5px;
     }
 
     .carousel-indicators li.active {
-        background-color: black;
-        opacity: 0.5;
+        background-color: rgba(0, 0, 0, 0.5);
         border-radius: 3px;
         width: 20%;
-        height: 100%;
-        margin-left: 10px;
-        margin-right: 10px;
-        text-indent: 0;
-        padding: 5px;
     }
 
     .preview-title {
-        font-size: 0.5vw;
+        font-size: 0.62vw;
         text-align: left;
+        font-weight: 400;
         margin: 0;
         color: white;
     }
 
     .preview-text {
-        font-size: 0.6vw;
+        font-size: 0.63vw;
         text-align: left;
+        font-weight: 700;
         color: white;
     }
 
-    .preview-img {
-    }
-} */
+}

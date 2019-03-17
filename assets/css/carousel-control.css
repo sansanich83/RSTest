@@ -10,18 +10,18 @@
 
     .glyphicon-chevron-left::before {
         content: "\e257";
-        font-size: 29px;
+        font-size: 20px;
         position: absolute;
-        top: 50%;
+        top: 65%;
         margin-top: -20px;
-        left: -10px;
+        left: -8px;
     }
 
     .glyphicon-chevron-right::before {
         content: "\e258";
-        font-size: 29px;
+        font-size: 20px;
         position: absolute;
-        top: 50%;
+        top: 65%;
         margin-top: -20px;
     }
 
